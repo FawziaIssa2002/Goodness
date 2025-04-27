@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Lemonada:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
+
+.custom-font {
+  font-family: 'Arial', sans-serif;
+}
+
+.custom-title {
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+}
+.App {
+  text-align: center;
+}
+.quran {
+  padding-top: 20px;
+  font-family: 'Gulzar', serif;
+  color: #4FA095;
+  font-size: 30px;
+  justify-content: space-between;
+}
+.quran1{
+  background-color: #004139;
+  height: 1px;
+  /* width: 20%; */
+  /* justify-content: center; */
+}
+.qqqq
+{
+  background-color: #004139;
+  height: 1px;
+  margin-bottom: 22px;
+  /* width: 22%;
+  padding-right: 200px;
+  padding-left: 200px; */
+  /* justify-content: center; */
+}
+.qqqq0 {
+  border: 2px bold rgb(00, 41, 39);
+}
+.QuranNewLine {
+  padding-top: 1000px;
+}
+.logo {
+  height: 150px;
+  float: right;
+  /* padding-left: 2; */
+  /* margin-right: 0;  */
+  padding-bottom: 60px;
+}
+.AppTitle {
+  color: #4FA095;
+  font-size: 50px;
+  font-family: "Gulzar", serif;
+  /* font-weight: 400; */
+  /* font-style: normal; */
+  /* float: right; */
+}
+.ScrollingDropdown {
+  text-align: right; /* جعل النص يظهر على اليمين */
+  /* direction: rtl; */
+}
+.AppTitle:hover {
+  color: rgb(187, 0, 255);
+}
+.navb {
+  font-size: 17px;
+}
+.greenItem {
+  font-family: "Gulzar", serif;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  white-space: nowrap; 
+  color: #4FA095;
+}
+.cycle {
+  padding-top: -px;
+}
+.tag {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* padding-bottom: 40px; */
+}
+.title2 {
+  
+  font-size: 20px; /* حجم الخط */
+  color: #333; /* لون الخط */
+  font-weight: bold; /* سمك الخط */
+  text-align: center; /* محاذاة النص */
+  margin-bottom: 20px; /* هامش أسفل العنوان للتباعد */
+
+}
+ /* .card-title {
+  padding-right: 200px;
+} 
+ .card-title p{
+  padding-top: -5000px;
+} */
+.cardMain {
+    border: 1px solid #e0e0e0; /* لون الإطار */
+    border-radius: 5px; /* تقويس الزوايا لتبدو أكثر نعومة */
+    /* display: inline-block; */
+    float: right;
+    padding-left: 20px; 
+    /* background-color: #f9f9f9; لون الخلفية للبطاقة */
+
+}
+
+.btn {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+}
+.total_donate{
+  font-size: 15px;
+}
+/* .col-md-8 {
+  font-size: 25px;
+} */
+
+.d-flex {
+ padding-left: 150px;
+ padding-top: 10px;
+ /* padding-right: 100px; */
+ /* justify-content: space-between; */
+}
+
+
+
+.card .mb-3{
+  max-width: 540px;
+  display: inline-block;
+}
+
+.img-fluid .rounded-start {
+  float: left;
+}
+.card-target{
+  /* padding-left: 50px; */
+  /* font-size: 5px; */
+  /* margin-bottom: -100px; */
+  /* display: block; */
+}
+.btn-primary {
+  /* background-color: #198754; */
+}
+.btn-primary:hover {
+  background-color: #555450;
+}
+.pdisb{
+  display: inline;
+}
+.money p{
+  justify-content: right;
+}
+.listGroup {
+  display: block;
+  width: 80%;
+  padding-top:20px ;
+  justify-content: space-between;
+}
+.classEye {
+  display: block;
+  width: 40px;
+}
+.selectForm {
+  /* padding-left: -500px; */
+  /* padding-top: 20px; */
+  
+}
+
+
+.ForminArabic {
+  display: inline-block;
+  text-align: right; /* جعل النص يظهر على اليمين */
+  /* direction: rtl; */
+  justify-content: space-between;
+}
+
+.leftToRightItem {
+  text-align: left; /* جعل النص يظهر على اليمين */
+  /* direction: ltr; */
+}
+ .textTop {
+  justify-content: center;
+  padding-top: 20px;
+ }
+
+
+.padd {
+  padding: 15px;
+  /* justify-content: space-between; */
+  /* padding-left: 50px; */
+}
+
+.textwithImg {
+  color: black;
+  font-weight: bold;
+  margin-top: -50px;
+}
+
+/* src/page/Information.css */
+
+.information-container {
+  padding: 40px;
+  font-family: 'Cairo', sans-serif;
+  background-color: #f3f4f6;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 40px auto;
+  color: #4FA095;
+}
+
+.information-container h2 {
+  text-align: center;
+  color: #4FA095;
+  margin-bottom: 30px;
+  font-size: 2em;
+  font-weight: bold;
+  border-bottom: 3px solid #4FA095;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.rewards-list, .quotes-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.rewards-list li, .quotes-list li {
+  background-color: #ffffff;
+  border-left: 5px solid #4FA095;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rewards-list li:hover, .quotes-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  border-left: 5px solid #004139;
+}
+
+.rewards-list p, .quotes-list p {
+  margin: 0;
+  color: #1e1f1f  ;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.rewards-list em, .quotes-list em {
+  display: block;
+  margin-top: 10px;
+  color: #7f8c8d;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.quotes-list p {
+  font-style: italic;
+  color: #4FA095;
+}
+
+.quotes-list em {
+  color: #5a5c5c;
+}
+
+
+.card-equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-equal-height .card-body {
+  flex: 1;
+}
+/* 
+.Trail {
+  height: 50px;
+  background-color: #45847d;
+} */
+
+.footer {
+  width: 100%;
+}
+.footer-shroot {
+  color: #979797;
+  font-family: Almarai;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.footer-phone {
+  color: #979797;
+  font-family: "Almarai";
+  font-size: 13px;
+  font-weight: bold;
+  text-align: right;
+  cursor: pointer;
+}
+
+/* لروضة */
+
+/* button */
+.btn{
+  background-color: #479288;
+  color:white;
+  /* white */
+  outline: none;
+  border: 0;
+  padding: 20px 30px;
+  border-radius: 6px;
+}
+.btn:hover{
+ background-color:#046156;
+ color: white;
+}
+/* .btn-prim{
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+} */
+
+
+
+    /* Auth */
+ 
+
+/* login */
+
+
+
+
+/* dachbord */
+
+/* .dashboard{
+  min-height: 100vh;
+  background-color: #f7f8fa;
+}
+.custom-progress{
+  width: 100%;
+  height: 9px;
+  border-radius: 4px;
+  background-color: rgb(214, 212, 212);
+
+}
+.inner-progress{
+  position: relative;
+  background-color: #56b6ff;
+  height: 100%;
+  display: block;
+  width: 50%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.inner-progress::after{
+  content: attr(percent);
+  position: absolute;
+  top: -25px;
+  right: 0;
+  background-color: rgb(116, 116, 116);
+  color: white;
+  width: 38px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  border-radius: 3px;
+}
+/* .btn{
+  background-color: #479288;
+} */
+link{
+  color:white;
+}
+.title-table{
+  color:#479288
+}
+.inputs::after{
+  border-color: #479288;
+}
+.inputs:hover{
+  border-color: #479288;
+  outline-color: #479288;
+  /* box-shadow:10px 10px #479288; */
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  .AppTitle {
+    /* display: none; */
+    /* font-size: 30px; */
+    /* color: #4FA095;   */
+    /* text-align: right;  */
+    float: right;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  /* تعديلات للشاشات التي أصغر من 600 بيكسل */
+  .img-fluid {
+    float: none; 
+  }
+  .logo{
+    display: none;
+  }
+  .AppTitle {
+    display: none;
+  }
+  .ScrollingDropdown {
+    text-align: center; 
+    /* direction: unset; */
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  /* تعديلات للشاشات التي تتراوح بين 601 بيكسل و 900 بيكسل */
+  .img-fluid {
+    float: right; /* إعادة تحديد الصورة على اليمين */
+  }
+  .AppTitle {
+    /* font-size: 30px; */
+    /* color: #4FA095;   */
+    /* text-align: right; 
+    float: right; */
+    display: none;
+
+  }
+}
+
+@media screen and (min-width: 901px) {
+  /* تعديلات للشاشات التي أكبر من 900 بيكسل */
+  .img-fluid {
+    float: right; /* إعادة تحديد الصورة على اليمين */
+  }
+  .AppTitle {
+    /* font-size: 30px; */
+    /* color: #4FA095;   */
+    /* text-align: right; 
+    float: right; */
+    /* display: none; */
+
+  }
+
+}
+
+/* تعديلات للشاشات الصغيرة */
+@media (min-width: 768px) {
+  .AppTitle {
+    /* font-size: 30px; */
+    /* color: #4FA095;   */
+    /* text-align: right; 
+    float: right; */
+    /* display: none; */
+
+  }
+}
+
+/* تنسيق العنوان للهواتف المحمولة */
+@media (max-width: 767px) {
+  .AppTitle {
+    /* font-size: 30px; */
+    /* color: #4FA095;  
+    text-align: right; 
+    float: right; */
+    /* display: none; */
+
+  }
+}

@@ -1,0 +1,106 @@
+.form{
+    background-image:
+    /* linear-gradient(
+        70deg ,
+     white 0%,
+     white 10%,
+      transparent 50%
+      ), */
+      linear-gradient(
+        to left ,
+     white 0%,
+     white 30%,
+      transparent 50%
+      ),
+     url("./photo/istockphoto-1207168906-612x612.jpg");
+     background-position: center;
+     background-size: cover;
+     background-repeat:repeat;
+     width: 80%;
+     height:30rem;
+     border-radius:12px;
+     align-items: center;
+     box-shadow: 0 0 20px  #479288 ;
+     /* rgba(0, 0, 0, 0.3) */
+     padding: 20px;
+}  
+.custom-form{
+    width: 50%;
+} 
+.form-custom {
+    margin-bottom: 20px;
+    position: relative;
+}
+   
+.form-custom label,
+.form-custom input {
+    display: block;
+}
+
+.form-custom input{
+    padding: 25px 25px;
+    outline: none;
+    border-radius: 3px;
+    border: 0;
+    background-color: white;
+    width: 80%;
+    border-bottom: 3px solid transparent;
+    font-family: "Lato", sans-serif;
+    box-shadow: 0 0 10px #479288 inset;
+    /* rgb(153, 152, 152) */
+}
+.form-custom input:focus {
+    /* box-shadow: none; */
+    box-shadow: 0 0 10px  #479288 inset;
+    /* rgb(153, 152, 152)  */
+
+}
+
+.form-custom input:focus:valid{
+    border-bottom: 3px solid green;
+}
+
+.form-custom input:focus:not(:valid){
+    border-bottom: 3px solid orangered;
+}
+.form-custom input:placeholder-shown + label{
+   opacity: 0; 
+   visibility: hidden;
+   top: 20px;
+}
+.form-custom label {
+    position: absolute;
+    top: -24px;
+    right: 0px;
+    /* left: 0px; */
+    font-size: 16px;
+    color:#479288 ;
+    /* gray */
+   font-weight: bold;
+   transition: 0.3s;
+}
+ .form-custom title{
+    margin-bottom: 200px;
+ }
+ 
+ /* 992px */
+  @media (max-width: 992px){
+    /* .form{
+      background-image:
+      linear-gradient( rgba(255, 255, 255, 0.8) 0%, 
+      rgba(255, 255, 255, 0.8)100%),
+       url("./../../form2.jpg");
+  }  */
+  .custom-form{
+    width: 100%;
+  } 
+  .form-custom input{
+    width: 100%;
+  }
+}
+/* .btn{
+    background-color: #479288;
+} */
+ .mb-5{
+    color: #479288;
+ }

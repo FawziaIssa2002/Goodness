@@ -1,0 +1,116 @@
+.dashboard{
+    min-height: 100vh;
+    background-color: #f7f8fa;
+ }
+ .custom-progress{
+    width: 100%;
+    height: 9px;
+    border-radius: 4px;
+    background-color: rgb(214, 212, 212);
+ 
+ }
+ .inner-progress{
+    position: relative;
+    background-color: #56b6ff;
+    height: 100%;
+    display: block;
+    width: 50%;
+    border-radius: 10px;
+    transition: 0.3s;
+ }
+ 
+ .inner-progress::after{
+    content: attr(percent);
+    position: absolute;
+    top: -25px;
+    right: 0;
+    background-color: rgb(116, 116, 116);
+    color: white;
+    width: 38px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 3px;
+ }
+ /* .btn{
+    background-color: #479288;
+ } */
+  link{
+    color:white;
+  }
+  .title-table{
+    color:#479288
+  }
+  .inputs::after{
+    border-color: #479288;
+  }
+  .inputs:hover{
+    border-color: #479288;
+    outline-color: #479288;
+    /* box-shadow:10px 10px #479288; */
+  }
+  .top-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    padding: 0 20px;
+}
+.side-bar{
+     /* i want to apaere users in table so i have to put it display: flex; but display: flex; */
+     /* dosent deal with position: fixed; so i put it sticky */
+    top: 70px;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+    height: 100vh;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.side-bar-link{
+    color: #479288;
+    font-size: 18px;
+    transition: 0.3s;
+    margin: 0 8px;
+    border-radius: 6px;
+}
+.side-bar .active{
+    /* background-color: #f2f3fe; */
+    background-color: #479288;
+    /* color: #034b42; */
+    color: #034b42;
+    /* //#038edc */
+}
+.side-bar-link:hover {
+    color: #034b42;
+    /* black */
+}
+a {
+    text-decoration: none !important;
+}
+.ehsan{
+    color:#479288;
+}
+/* .admin{
+    background-color: #479288;
+
+} */
+.admin:hover{
+   color: #479288;
+
+}
+.admin1::after{
+    color:#034b42;
+}
+.admin:after{
+    color:#034b42;
+}
+
+.btn {
+    color: #479288;
+}
